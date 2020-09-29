@@ -7,7 +7,7 @@ from os import getcwd
 # - Handle SQL Errors
 # - Multiline input SQL
 
-CONN = 'db/ad_database.sqlite3'
+CONN = '../db/ad_database.sqlite3'
 ADFILE = getcwd() + '/adview.html'
 LISTFILE = 'shortlist.txt'
 
